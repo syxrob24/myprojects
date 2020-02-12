@@ -1,0 +1,18 @@
+body {
+    background-color: #eaeaea;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex; /*список делает флекс-контейнером*/
+    list-style-type: none; /*убирает буллиты*/
+    padding-left: 0;
+    font-weight: 700;
+}
