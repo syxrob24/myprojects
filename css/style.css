@@ -15,4 +15,30 @@ body {
     list-style-type: none; /*убирает буллиты*/
     padding-left: 0;
     font-weight: 700;
+    text-transform: uppercase; /*делает буквы с заглавной*/
+}
+
+.nav li {
+    padding-left: 23px;
+    margin-left: 22px;
+    position: relative;
+}
+
+.nav li::before {
+    content: '';
+    display: block;
+    width: 2px;
+    height: 100%;
+    background-color: #494949;
+    position: absolute;
+    left: 0;
+}
+
+.nav li:first-child::before {
+    display: none;
+}
+
+.nav li a {
+    color: #494949;
+    text-decoration: none;
 }
